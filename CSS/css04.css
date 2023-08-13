@@ -1,0 +1,19 @@
+table{
+  border: solid 2px #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr.line1 {
+  text-align: center;
+  background-color: black !important;
+  color: #fff;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+
+tr:nth-child(odd){
+  background-color: rgb(200, 216, 216);
+}

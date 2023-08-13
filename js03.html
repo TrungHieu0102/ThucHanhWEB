@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS03</title>
+    <style>
+        table,
+        td
+        {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            background-color: beige;
+        }
+        table
+        {
+            margin:0px auto;
+        }
+        td:nth-of-type(odd)
+        /* Cột lẻ */
+        {
+            width:50px;
+        }
+        td:nth-of-type(even)
+        /* Cột chẵn */
+        {
+            width:300px;
+        }
+        p
+        {
+            text-align: center;
+        }
+    </style>
+    <script src="JS/js03.js"></script>
+</head>
+<body>
+    <table>
+        <caption>
+            <b>CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH BẬC 2
+                <br>ax<sup>2</sup> + bx + c = 0
+            </b>
+        </caption>
+        <tr>
+            <td>a = </td>
+            <td><input type="text" id="a" size="40"></td>
+        </tr>
+        <tr>
+            <td>b = </td>
+            <td><input type="text" id="b" size="40"></td>
+        </tr>
+        <tr>
+            <td>c = </td>
+            <td><input type="text" id="c" size="40"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="btGiai" onClick="PTB2()">Giải</button>
+                <button id="btXoa" onClick="Xoa()">Xóa</button>
+            </td>
+        </tr>
+    </table>
+    <p id="ketqua"></p>
+</body>
+</html>

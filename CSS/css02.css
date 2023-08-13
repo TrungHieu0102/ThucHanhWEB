@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    color: #000;
+    background-color: white;
+    font-family: Arial, verdana, sans-serif;
+    font-size: 12px;
+}
+p.none{
+    text-transform: none;
+}
+p.capitalize{
+    text-transform: capitalize;
+}
+p.uppercase{
+    text-transform: uppercase;
+    text-align: right;
+}
+p.lowercase{
+    text-transform: lowercase;
+    text-align: left;
+}
+p.pageOne::first-letter{
+    font-size: 42px;
+    width: 200px;
+}
+P.pageOne::first-line{
+    font-weight: 900;
+}
+.shadow{
+    text-shadow: #999999 10px 10px 3px;
+}
